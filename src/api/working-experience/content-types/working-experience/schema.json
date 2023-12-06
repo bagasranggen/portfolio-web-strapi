@@ -1,0 +1,28 @@
+{
+  "kind": "collectionType",
+  "collectionName": "working_experiences",
+  "info": {
+    "singularName": "working-experience",
+    "pluralName": "working-experiences",
+    "displayName": "Working Experience",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "startDate": {
+      "type": "date"
+    },
+    "endDate": {
+      "type": "date"
+    },
+    "description": {
+      "type": "richtext"
+    }
+  }
+}
